@@ -1,0 +1,112 @@
+ /* reset some default styles*/
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ /* body style*/
+.color{
+    background-color: #31d6ae;
+    height: 100vh;
+    padding-top: 100px;
+}
+
+ /* navbar style*/
+ .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 60px;
+    position:fixed;
+    top:0;
+    width: 100%;
+    
+ }
+ /* logo style*/
+    .logo {
+        font-size: 24px;
+        font-weight: bold; 
+    }
+    /* nav-links style*/
+    .nav-links {
+        list-style: none;
+        display: flex; 
+        align-items: center;
+    }
+    /* nav-links li style*/
+    .nav-links li {
+        margin-left: 25px;
+        position: relative;
+    }
+    /* nav-links a style*/
+    .nav-links a {
+        text-decoration:none;
+        color: white;
+        font-size: 18px;
+        transition: color 0.3s;
+    }
+    /* nav-links a hover style*/
+    .nav-links a:hover {
+        color: #ff6347;
+    }
+    /* dropdown content style*/
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        top:100%;;
+        left: 0;
+        background-color: #444;
+        min-width: 150px;
+        border-radius: 4px;
+    }
+    /* dropdown content li style*/
+    .dropdown-content li {
+        margin: 0;
+    }
+    /* dropdown content a style*/
+    .dropdown-content a {
+        display: block;
+        padding: 10px;
+        color: white;
+    }
+    /* dropdown content a hover style*/
+    .dropdown-content a:hover {
+        background-color: #555;
+    }
+    /* show dropdown on hover*/
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    /*button style*/
+    .btn-buy {
+        background-color: #ff4f81;
+        padding: 8px 16px;
+        border-radius: 4px;
+        font-weight:bold;
+    } 
+    /* button hover style*/
+    .btn-buy:hover {
+        background-color:#ff6b9c;
+    }
+    /* P style*/
+    p{
+        font-size: 18px;
+        color: white;
+        text-align: center;
+    }
+ /*image style*/
+ img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    padding: 10px;
+ }
+ h3{
+    text-align: center;
+    color: white;
+  
+ }
