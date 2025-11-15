@@ -19,7 +19,7 @@
     align-items: center;
     background-color: #333;
     color: white;
-    padding: 10px 60px;
+    padding: 15px 10px;
     position:fixed;
     top:0;
     width: 100%;
@@ -28,7 +28,8 @@
  /* logo style*/
     .logo {
         font-size: 24px;
-        font-weight: bold; 
+        font-weight: bold;
+        text-align: left; 
     }
     /* nav-links style*/
     .nav-links {
@@ -61,6 +62,7 @@
         background-color: #444;
         min-width: 150px;
         border-radius: 4px;
+        list-style: none;
     }
     /* dropdown content li style*/
     .dropdown-content li {
@@ -83,7 +85,7 @@
     /*button style*/
     .btn-buy {
         background-color: #ff4f81;
-        padding: 8px 16px;
+        padding: 8px 18px;
         border-radius: 4px;
         font-weight:bold;
     } 
